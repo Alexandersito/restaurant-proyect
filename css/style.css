@@ -1,0 +1,156 @@
+/*=======================================================================================================================================*/
+/*GOOGLE FONTS*/
+/*=======================================================================================================================================*/
+.sans-narrow{
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+.negrita{
+    font-weight: bold;
+}
+.center{
+    text-align: center;
+}
+/*=======================================================================================================================================*/
+/*HEADER*/
+/*=======================================================================================================================================*/
+/* COLUMMNA 1 */
+.contenedor {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr; 
+  height: 252px !important;
+  border-bottom: 3px dashed #000;
+  border-width: 10px;
+}
+
+.columna1, .columna2, .columna3 {
+  padding: 20px;
+  background-color: #121618;
+}
+
+.columna1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.columna1 .contenido {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.columna1-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.columna1-1 i{
+    font-size: 45px;
+    color: white;
+}
+
+.columna1-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  color: white;
+}
+.columna1-2 .fila1{
+    font-size: 15px;
+    letter-spacing: 4px;
+}
+.columna1-2 .fila2{
+    font-size: 13px;
+    /* letter-spacing: 4px; */
+}
+
+/* COLUMNA 2 */
+.columna2 {
+  display: grid;
+  grid-template-rows: 1fr .5fr;
+}
+
+.columna2 .fila1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.columna2 .fila2 {
+  display: grid;
+  grid-column: 1/-1;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 10px;
+}
+
+/* Estilos opcionales para las columnas */
+.columna2 .fila2 .item-menu {
+    margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid #f8f8f8; */
+  color: white;
+  font-family: 'PT Sans Narrow', sans-serif;
+  letter-spacing: 3px;
+}
+.columna2 .fila2 .item-menu:hover{
+    cursor: pointer;
+    color: #edbb3a;
+}
+
+/* COLUMNA 3 */
+.columna3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.columna3 .contenido {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-gap: 10px;
+}
+
+.columna3-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.columna3 .fila1,
+.columna3 .fila2 {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.columna3 .fila1{
+    font-size: 15px;
+}
+.columna3 .fila2{
+    font-size: 13px;
+}
+.columna3-1 {
+  grid-row: 1 / span 2;
+}
+
+.columna3-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.columna3-2 i{
+    font-size: 45px;
+    color: white;
+}
+.columna3-2 .contador{
+    width: 15px;
+    height: 20px;
+    background-color: #edbb3a;
+    border-radius: 5px;
+    position: absolute;
+    right: 1px;
+}
