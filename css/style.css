@@ -1,28 +1,55 @@
 /*=======================================================================================================================================*/
 /*GOOGLE FONTS*/
 /*=======================================================================================================================================*/
-.sans-narrow{
-    font-family: 'PT Sans Narrow', sans-serif;
+.sans-narrow {
+  font-family: 'PT Sans Narrow', sans-serif;
 }
-.negrita{
-    font-weight: bold;
+
+.negrita {
+  font-weight: bold;
 }
-.center{
-    text-align: center;
+
+.center {
+  text-align: center;
 }
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.centrado {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.centrado-right {
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  height: 50px;
+  width: 50px;
+}
+
 /*=======================================================================================================================================*/
 /*HEADER*/
 /*=======================================================================================================================================*/
 /* COLUMMNA 1 */
-.contenedor {
+.header {
   display: grid;
-  grid-template-columns: 1fr 2fr 1fr; 
+  grid-template-columns: 1fr 2fr 1fr;
   height: 252px !important;
   border-bottom: 3px dashed #000;
   border-width: 10px;
 }
 
-.columna1, .columna2, .columna3 {
+.columna1,
+.columna2,
+.columna3 {
   padding: 20px;
   background-color: #121618;
 }
@@ -44,25 +71,25 @@
   align-items: center;
 }
 
-.columna1-1 i{
-    font-size: 45px;
-    color: white;
+.columna1-1 i {
+  font-size: 45px;
+  color: white;
 }
 
 .columna1-2 {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  /* align-items: center; */
   color: white;
 }
-.columna1-2 .fila1{
-    font-size: 15px;
-    letter-spacing: 4px;
+
+.columna1-2 .fila1 {
+  font-size: 15px;
+  letter-spacing: 4px;
 }
-.columna1-2 .fila2{
-    font-size: 13px;
-    /* letter-spacing: 4px; */
+
+.columna1-2 .fila2 {
+  font-size: 13px;
 }
 
 /* COLUMNA 2 */
@@ -86,18 +113,18 @@
 
 /* Estilos opcionales para las columnas */
 .columna2 .fila2 .item-menu {
-    margin-top: 10px;
+  margin-top: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
-  /* border: 1px solid #f8f8f8; */
   color: white;
   font-family: 'PT Sans Narrow', sans-serif;
   letter-spacing: 3px;
 }
-.columna2 .fila2 .item-menu:hover{
-    cursor: pointer;
-    color: #edbb3a;
+
+.columna2 .fila2 .item-menu:hover {
+  cursor: pointer;
+  color: #edbb3a;
 }
 
 /* COLUMNA 3 */
@@ -125,12 +152,15 @@
   justify-content: end;
   align-items: center;
 }
-.columna3 .fila1{
-    font-size: 15px;
+
+.columna3 .fila1 {
+  font-size: 15px;
 }
-.columna3 .fila2{
-    font-size: 13px;
+
+.columna3 .fila2 {
+  font-size: 13px;
 }
+
 .columna3-1 {
   grid-row: 1 / span 2;
 }
@@ -142,15 +172,120 @@
   position: relative;
 }
 
-.columna3-2 i{
-    font-size: 45px;
-    color: white;
+.columna3-2 i {
+  font-size: 45px;
+  color: white;
 }
-.columna3-2 .contador{
-    width: 15px;
-    height: 20px;
-    background-color: #edbb3a;
-    border-radius: 5px;
-    position: absolute;
-    right: 1px;
+
+.columna3-2 .contador {
+  width: 15px;
+  height: 20px;
+  background-color: #edbb3a;
+  border-radius: 5px;
+  position: absolute;
+  right: 1px;
+}
+
+.fade-in {
+  animation: spin 0.5s;
+  transform-origin: center;
+  display: inline-block;
+  height: 0px;
+  line-height: 0px;
+  transform-style: preserve-3d;
+}
+
+@keyframes spin {
+  from {
+    transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+  }
+
+  to {
+    transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg);
+  }
+}
+
+/*=======================================================================================================================================*/
+/*TABLET HORIZONTAL LG 1024px*/
+/*=======================================================================================================================================*/
+@media (max-width: 1199px) and (min-width: 992px) {
+
+  /*=================================================*/
+  /*HEADER*/
+  /*=================================================*/
+  .columna1 .contenido,
+  .columna3 .contenido {
+    display: none !important;
+  }
+}
+
+/*=======================================================================================================================================*/
+/*TABLET VERTICAL MD 768px*/
+/*=======================================================================================================================================*/
+@media (max-width: 991px) and (min-width: 768px) {
+
+  /*=================================================*/
+  /*HEADER*/
+  /*=================================================*/
+  .columna2 {
+    display: grid;
+    grid-template-rows: 1fr;
+  }
+
+  .columna2 .fila2 {
+    display: none;
+  }
+
+  .columna1 .contenido,
+  .columna3 .contenido {
+    display: none !important;
+  }
+
+}
+
+/*=======================================================================================================================================*/
+/*MOVIL HORIZONTAL SM 576px*/
+/*=======================================================================================================================================*/
+@media (max-width: 767px) and (min-width: 576px) {
+
+  /*=================================================*/
+  /*HEADER*/
+  /*=================================================*/
+  .columna2 {
+    display: grid;
+    grid-template-rows: 1fr;
+  }
+
+  .columna2 .fila2 {
+    display: none;
+  }
+
+  .columna1 .contenido,
+  .columna3 .contenido {
+    display: none !important;
+  }
+}
+
+/*=======================================================================================================================================*/
+/*MOVIL VERTICAL 320px*/
+/*=======================================================================================================================================*/
+@media (max-width: 575px) {
+
+  /*=================================================*/
+  /*HEADER*/
+  /*=================================================*/
+  .columna2 {
+    display: grid;
+    grid-template-rows: 1fr;
+  }
+
+  .columna2 .fila2 {
+    display: none;
+  }
+
+  .columna1 .contenido,
+  .columna3 .contenido {
+    display: none !important;
+  }
+
 }
