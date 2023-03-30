@@ -187,7 +187,7 @@
 }
 
 .fade-in {
-  animation: spin .8s;
+  animation: spin 1s;
   transform-origin: center;
   display: inline-block;
   height: 0px;
