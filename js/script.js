@@ -1,3 +1,6 @@
+//========================================
+//BARRA DE MENU
+//========================================
 var openIcon = document.getElementById('open-icon');
 var closeIcon = document.getElementById('close-icon');
 
@@ -29,6 +32,43 @@ $(document).ready(function () {
         $(this).closest('li').find('.submenu').slideToggle(300);
         $(this).toggleClass('rotated');
     });
+});
+
+//=======================================================================================================================================
+//CARRUSEL
+//=======================================================================================================================================
+$(document).ready(function () {
+    $(document).ready(function () {
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: false,
+            dots: false,
+            autoplay: true,
+            autoplayTimeout: 2000,
+            autoplayHoverPause: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 1
+                },
+                1000: {
+                    items: 1
+                }
+            }
+        });
+
+        $('.owl-prev').click(function () {
+            $('.owl-carousel').trigger('prev.owl.carousel');
+        });
+
+        $('.owl-next').click(function () {
+            $('.owl-carousel').trigger('next.owl.carousel');
+        });
+    });
+
 });
 
 

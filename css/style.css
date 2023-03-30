@@ -35,6 +35,12 @@
   width: 50px;
 }
 
+.centrado-horizontal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /*=======================================================================================================================================*/
 /*HEADER*/
 /*=======================================================================================================================================*/
@@ -119,6 +125,7 @@
   align-items: center;
   color: white;
   font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 15px;
   letter-spacing: 3px;
 }
 
@@ -269,6 +276,51 @@ ul div:hover {
 .ri-arrow-right-s-line.rotated {
   transform: rotate(90deg);
 }
+
+/*=================================================*/
+/*CARRUSEL*/
+/*=================================================*/
+.owl-carousel {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 700px;
+  width: 100%;
+}
+
+.owl-carousel .item {
+  height: 100%;
+  text-align: center;
+  color: #fff;
+}
+
+.owl-prev,
+.owl-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 30px;
+  color: #fff;
+  z-index: 1;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.owl-prev {
+  left: 5%;
+}
+
+.owl-next {
+  right: 5%;
+}
+
+/*=================================================*/
+/*ITEMS DEL CARRUSEL*/
+/*=================================================*/
+
 
 /*=======================================================================================================================================*/
 /*TABLET HORIZONTAL LG 1024px*/
