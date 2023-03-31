@@ -284,16 +284,6 @@ ul div:hover {
 /*=================================================*/
 /*CARRUSEL*/
 /*=================================================*/
-.carrusel {
-  position: relative;
-  z-index: 0;
-  top: -20px;
-  padding-top: 20px;
-  background-image: url(../img/slide_1.jpg);
-  background-size: cover;
-  background-position: center center;
-  height: 800px;
-}
 
 .owl-carousel {
   position: absolute;
