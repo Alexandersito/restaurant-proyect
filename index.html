@@ -38,6 +38,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap" rel="stylesheet">
+    <!-- OPEN SANS -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
 
     <!-- ESTILOS CSS -->
     <link rel="stylesheet" href="css/style.css">
@@ -231,7 +233,7 @@
     <!--=======================================================================================================================================-->
     <!--CAROSUEL-->
     <!--=======================================================================================================================================-->
-    <div
+    <div class="carrusel"
         style="position: relative; z-index: 0; top: -20px; padding-top: 20px; background-image: url(img/slide_1.jpg); background-size: cover; background-position: center center; height: 800px;">
 
         <div class="owl-carousel owl-theme"
@@ -240,16 +242,25 @@
             <!--===========================================-->
             <!--ITEMS DEL CARRUSEL-->
             <!--===========================================-->
-            <div class="item " style="height: 700px;">
-                <div class=" centrado-horizontal">
-                    <img class="img-fluid " src="img/pizza_1.png" alt=""
+            <div class="item item1">
+                <div class="centrado-horizontal">
+                    <img class="img-fluid item1-img" src="img/pizza_1.png" alt=""
                         style="width: 500px;image-rendering: crisp-edges">
                 </div>
+
+                <h1 class="sans-narrow mt-5" style="font-size: 40px;font-weight: 400;letter-spacing: 8px;">VINCENT</h1>
+
+                <div class="mt-4 open-sans parrafo" style="font-size: 17px;letter-spacing: 2px;">
+                    Italian Pizza With Cherry Tomatoes
+                    <br>
+                    and Green Basil
+                </div>
+
             </div>
 
-            <div class="item bg-success" style="height: 700px;">Contenido del segundo slide</div>
-            <div class="item bg-warning" style="height: 700px;">Contenido del tercer slide</div>
-            <div class="item bg-primary" style="height: 700px;">Contenido del cuarto slide</div>
+            <div class="item " style="height: 700px;">Contenido del segundo slide</div>
+            <div class="item " style="height: 700px;">Contenido del tercer slide</div>
+            <div class="item " style="height: 700px;">Contenido del cuarto slide</div>
 
         </div>
 

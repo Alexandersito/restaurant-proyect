@@ -5,6 +5,10 @@
   font-family: 'PT Sans Narrow', sans-serif;
 }
 
+.open-sans {
+  font-family: 'Open Sans', sans-serif;
+}
+
 .negrita {
   font-weight: bold;
 }
@@ -280,6 +284,17 @@ ul div:hover {
 /*=================================================*/
 /*CARRUSEL*/
 /*=================================================*/
+.carrusel {
+  position: relative;
+  z-index: 0;
+  top: -20px;
+  padding-top: 20px;
+  background-image: url(../img/slide_1.jpg);
+  background-size: cover;
+  background-position: center center;
+  height: 800px;
+}
+
 .owl-carousel {
   position: absolute;
   top: 50%;
@@ -358,6 +373,30 @@ ul div:hover {
     display: none !important;
   }
 
+  /*=================================================*/
+  /*CARRUSEL*/
+  /*=================================================*/
+  .carrusel {
+    height: 650px !important;
+    background-position: center !important;
+    background-size: cover !important;
+  }
+
+  .carrusel .item1 {
+    margin-top: 10%;
+  }
+
+  .carrusel .item1-img {
+    width: 380px !important;
+  }
+
+  .carrusel .item1 h1 {
+    font-size: 30px !important;
+  }
+
+  .carrusel .item1 .parrafo {
+    font-size: 15px !important;
+  }
 }
 
 /*=======================================================================================================================================*/
@@ -381,6 +420,31 @@ ul div:hover {
   .columna3 .contenido {
     display: none !important;
   }
+
+  /*=================================================*/
+  /*CARRUSEL*/
+  /*=================================================*/
+  .carrusel {
+    height: 550px !important;
+    background-position: center !important;
+    background-size: cover !important;
+  }
+
+  .carrusel .item1 {
+    margin-top: 25%;
+  }
+
+  .carrusel .item1-img {
+    width: 280px !important;
+  }
+
+  .carrusel .item1 h1 {
+    font-size: 25px !important;
+  }
+
+  .carrusel .item1 .parrafo {
+    font-size: 12px !important;
+  }
 }
 
 /*=======================================================================================================================================*/
@@ -403,6 +467,31 @@ ul div:hover {
   .columna1 .contenido,
   .columna3 .contenido {
     display: none !important;
+  }
+
+  /*=================================================*/
+  /*CARRUSEL*/
+  /*=================================================*/
+  .carrusel {
+    height: 550px !important;
+    background-position: center !important;
+    background-size: cover !important;
+  }
+
+  .carrusel .item1 {
+    margin-top: 40%;
+  }
+
+  .carrusel .item1-img {
+    width: 200px !important;
+  }
+
+  .carrusel .item1 h1 {
+    font-size: 30px !important;
+  }
+
+  .carrusel .item1 .parrafo {
+    font-size: 15px !important;
   }
 
 }
