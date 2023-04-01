@@ -446,12 +446,12 @@ ul div:hover {
 
   /* ITEM1 */
   .carrusel .item1 {
-    margin-top: 7%;
+    margin-top: 80px;
   }
 
   /* ITEM2 */
   .carrusel .item2 {
-    margin-top: 19%;
+    margin-top: 220px;
     padding-left: 50px;
     padding-right: 50px;
   }
@@ -461,7 +461,7 @@ ul div:hover {
   }
 
   .carrusel .item2 h1 {
-    font-size: 40px;
+    font-size: 50px;
     letter-spacing: 10px;
   }
 
@@ -475,7 +475,7 @@ ul div:hover {
   }
 
   .carrusel .item2 .contenedor-parrafo p {
-    font-size: 15px;
+    font-size: 20px;
     letter-spacing: 2px;
   }
 
@@ -519,7 +519,7 @@ ul div:hover {
   }
 
   .carrusel .item1 {
-    margin-top: 8%;
+    margin-top: 65px;
   }
 
   .carrusel .item1-img {
@@ -536,7 +536,7 @@ ul div:hover {
 
   /* ITEM2 */
   .carrusel .item2 {
-    margin-top: 25%;
+    margin-top: 180px;
     padding-left: 50px;
     padding-right: 50px;
   }
@@ -604,7 +604,7 @@ ul div:hover {
   }
 
   .carrusel .item1 {
-    margin-top: 25%;
+    margin-top: 70px;
   }
 
   .carrusel .item1-img {
@@ -612,18 +612,18 @@ ul div:hover {
   }
 
   .carrusel .item1 h1 {
-    font-size: 25px !important;
+    font-size: 30px !important;
   }
 
   .carrusel .item1 .parrafo {
-    font-size: 12px !important;
+    font-size: 15px !important;
   }
 
   /* ITEM2 */
   .carrusel .item2 {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
-    margin-top: 18%;
+    margin-top: 35px;
     padding-left: 50px;
     padding-right: 50px;
   }
@@ -654,7 +654,7 @@ ul div:hover {
 
   .carrusel .item2 .contenedor-parrafo p {
     text-align: center;
-    font-size: 14px;
+    font-size: 13px;
     letter-spacing: 2px;
   }
 
@@ -666,7 +666,7 @@ ul div:hover {
   .carrusel .item4 {
     object-fit: cover !important;
     background-position: center center;
-    height: 650px;
+    height: 550px;
   }
 }
 
@@ -702,7 +702,7 @@ ul div:hover {
   }
 
   .carrusel .item1 {
-    margin-top: 55%;
+    margin-top: 80px;
   }
 
   .carrusel .item1-img {
@@ -721,7 +721,7 @@ ul div:hover {
   .carrusel .item2 {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
-    margin-top: 38%;
+    margin-top: 40px;
     padding-left: 10px;
     padding-right: 10px;
   }
@@ -764,7 +764,7 @@ ul div:hover {
   .carrusel .item4 {
     object-fit: cover !important;
     background-position: center center;
-    height: 680px;
+    height: 550px;
   }
 
 }
