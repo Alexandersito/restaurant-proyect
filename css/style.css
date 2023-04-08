@@ -13,10 +13,6 @@
   font-weight: bold;
 }
 
-.center {
-  text-align: center;
-}
-
 .relative {
   position: relative;
 }
@@ -54,10 +50,6 @@
   grid-template-columns: 1fr 2fr 1fr;
   min-height: 252px !important;
   background-color: #121618;
-}
-
-.contenedor-entrecortado {
-  overflow-x: hidden;
 }
 
 .entrecortado::after {
@@ -427,6 +419,76 @@ ul div:hover {
   background-size: cover;
 }
 
+/*===========================================*/
+/*ICONOS YELLOW*/
+/*===========================================*/
+.iconos-yellow {
+  height: 450px;
+  background-image: url(../img/back_2.png);
+  background-repeat: no-repeat;
+}
+
+.iconos-yellow-grid {
+  width: 1200px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 30px;
+}
+
+.iconos-yellow-grid-item h1 {
+  font-size: 25px;
+  letter-spacing: 4px;
+  margin-top: 20px !important;
+  margin-bottom: 20px !important;
+}
+
+.iconos-yellow-grid-item p {
+  font-size: 14px;
+  letter-spacing: 1px;
+  line-height: 28px;
+}
+
+/*===========================================*/
+/*HOT SALES*/
+/*===========================================*/
+.hot-sales {
+  height: 650px;
+  color: #DCE4E8;
+  background-color: #121618;
+}
+
+.hot-sales h3 {
+  font-size: 30px;
+  letter-spacing: 7px;
+  margin-bottom: 50px;
+}
+
+.hot-sales-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 0px;
+}
+
+.hot-sales-grid-item img {
+  width: 200px;
+}
+
+.hot-sales-grid-item h5 {
+  font-size: 18px;
+  letter-spacing: 3px;
+  margin-top: 25px;
+}
+
+.hot-sales-grid-item p {
+  font-size: 15px;
+  margin-top: 20px;
+}
+
+.hot-sales-grid-item .precio {
+  font-size: 25px;
+}
+
+
 /*=======================================================================================================================================*/
 /*TABLET HORIZONTAL LG 1024px*/
 /*=======================================================================================================================================*/
@@ -483,6 +545,71 @@ ul div:hover {
   .carrusel .item4 {
     /* object-fit: cover !important; */
     height: 800px;
+  }
+
+
+
+  /*===========================================*/
+  /*ICONOS YELLOW*/
+  /*===========================================*/
+  .iconos-yellow {
+    height: 350px;
+  }
+
+  .iconos-yellow-grid {
+    width: 1200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 30px;
+  }
+
+  .iconos-yellow-grid-item h1 {
+    font-size: 25px;
+    letter-spacing: 4px;
+  }
+
+  .iconos-yellow-grid-item p {
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 28px;
+  }
+
+  /*===========================================*/
+  /*HOT SALES*/
+  /*===========================================*/
+  .hot-sales {
+    height: 500px;
+  }
+
+  .hot-sales h3 {
+    font-size: 30px;
+    letter-spacing: 7px;
+    margin-bottom: 50px;
+  }
+
+  .hot-sales-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 20px;
+  }
+
+  .hot-sales-grid-item img {
+    width: 150px;
+  }
+
+  .hot-sales-grid-item h5 {
+    font-size: 18px;
+    letter-spacing: 3px;
+    margin-top: 25px;
+  }
+
+  .hot-sales-grid-item p {
+    font-size: 14px;
+    margin-top: 20px;
+  }
+
+  .hot-sales-grid-item .precio {
+    font-size: 25px;
   }
 
 }
@@ -569,6 +696,74 @@ ul div:hover {
     object-fit: cover !important;
     background-position: center center;
     height: 650px;
+  }
+
+  /*===========================================*/
+  /*ICONOS YELLOW*/
+  /*===========================================*/
+  .iconos-yellow {
+    height: 800px;
+    background-image: url(../img/back_2.png);
+    background-repeat: repeat;
+  }
+
+  .iconos-yellow-grid {
+    width: 1200px;
+    display: grid;
+    grid-template-columns: 1fr;
+    column-gap: 0px;
+  }
+
+  .iconos-yellow-grid-item h1 {
+    font-size: 25px;
+    letter-spacing: 4px;
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+  }
+
+  .iconos-yellow-grid-item p {
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 28px;
+  }
+
+  /*===========================================*/
+  /*HOT SALES*/
+  /*===========================================*/
+  .hot-sales {
+    height: 1100px;
+  }
+
+  .hot-sales h3 {
+    font-size: 30px;
+    letter-spacing: 7px;
+    margin-bottom: 50px;
+  }
+
+  .hot-sales-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 40px;
+  }
+
+  .hot-sales-grid-item img {
+    width: 300px;
+  }
+
+  .hot-sales-grid-item h5 {
+    font-size: 18px;
+    letter-spacing: 3px;
+    margin-top: 25px;
+  }
+
+  .hot-sales-grid-item p {
+    font-size: 14px;
+    margin-top: 20px;
+  }
+
+  .hot-sales-grid-item .precio {
+    font-size: 25px;
   }
 }
 
@@ -668,6 +863,73 @@ ul div:hover {
     background-position: center center;
     height: 550px;
   }
+
+  /*===========================================*/
+  /*ICONOS YELLOW*/
+  /*===========================================*/
+  .iconos-yellow {
+    height: 850px;
+    background-repeat: repeat;
+  }
+
+  .iconos-yellow-grid {
+    width: 1200px;
+    display: grid;
+    grid-template-columns: 1fr;
+    column-gap: 0px;
+  }
+
+  .iconos-yellow-grid-item h1 {
+    font-size: 25px;
+    letter-spacing: 4px;
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+  }
+
+  .iconos-yellow-grid-item p {
+    font-size: 15px;
+    letter-spacing: 0px;
+    line-height: 25px;
+  }
+
+  /*===========================================*/
+  /*HOT SALES*/
+  /*===========================================*/
+  .hot-sales {
+    height: 2650px;
+  }
+
+  .hot-sales h3 {
+    font-size: 30px;
+    letter-spacing: 7px;
+    margin-bottom: 50px;
+  }
+
+  .hot-sales-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    column-gap: 20px;
+    row-gap: 40px;
+  }
+
+  .hot-sales-grid-item img {
+    width: 450px;
+  }
+
+  .hot-sales-grid-item h5 {
+    font-size: 18px;
+    letter-spacing: 3px;
+    margin-top: 25px;
+  }
+
+  .hot-sales-grid-item p {
+    font-size: 14px;
+    margin-top: 20px;
+  }
+
+  .hot-sales-grid-item .precio {
+    font-size: 25px;
+  }
 }
 
 /*=======================================================================================================================================*/
@@ -765,6 +1027,74 @@ ul div:hover {
     object-fit: cover !important;
     background-position: center center;
     height: 550px;
+  }
+
+  /*===========================================*/
+  /*ICONOS YELLOW*/
+  /*===========================================*/
+  .iconos-yellow {
+    height: 950px;
+    background-repeat: repeat;
+  }
+
+  .iconos-yellow-grid {
+    width: 300px;
+    display: grid;
+    grid-template-columns: 1fr;
+    column-gap: 0px;
+  }
+
+  .iconos-yellow-grid-item h1 {
+    font-size: 25px;
+    letter-spacing: 4px;
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+  }
+
+  .iconos-yellow-grid-item p {
+    font-size: 16px;
+    letter-spacing: 0px;
+    line-height: 30px;
+  }
+
+  /*===========================================*/
+  /*HOT SALES*/
+  /*===========================================*/
+  .hot-sales {
+    height: 1950px;
+  }
+
+  .hot-sales h3 {
+    font-size: 30px;
+    letter-spacing: 7px;
+    margin-bottom: 50px;
+  }
+
+  .hot-sales-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    column-gap: 20px;
+    row-gap: 40px;
+  }
+
+  .hot-sales-grid-item img {
+    width: 250px;
+  }
+
+  .hot-sales-grid-item h5 {
+    font-size: 18px;
+    letter-spacing: 3px;
+    margin-top: 25px;
+  }
+
+  .hot-sales-grid-item p {
+    font-size: 14px;
+    margin-top: 20px;
+    line-height: 30px;
+  }
+
+  .hot-sales-grid-item .precio {
+    font-size: 25px;
   }
 
 }
