@@ -41,6 +41,12 @@
   align-items: center;
 }
 
+.centrado-vertical {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 /*=======================================================================================================================================*/
 /*HEADER*/
 /*=======================================================================================================================================*/
@@ -488,6 +494,65 @@ ul div:hover {
   font-size: 25px;
 }
 
+/*===========================================*/
+/*WE ARE VINCENT*/
+/*===========================================*/
+.we-are-vincent {
+  height: 700px;
+  background-image: url(../img/back_1.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+.we-are-vincent-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 70px;
+}
+
+.we-are-vincent-grid-item-about h1 {
+  margin-bottom: 35px;
+  font-size: 40px;
+  letter-spacing: 8px;
+}
+
+.we-are-vincent-grid-item-about h6 {
+  word-wrap: break-word;
+  font-size: 16px;
+  letter-spacing: 3px;
+  line-height: 30px;
+}
+
+.we-are-vincent-grid-item-about p:nth-child(4) {
+  word-wrap: break-word;
+  font-size: 16px;
+  letter-spacing: 0px;
+  line-height: 25px;
+}
+
+.we-are-vincent-grid-item-testimonials .testimonio img {
+  width: 50px;
+  border-radius: 50%;
+}
+
+.we-are-vincent-grid-item-testimonials .testimonio p:nth-child(1) {
+  font-size: 15px;
+  line-height: 28px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.we-are-vincent-grid-item-testimonials .testimonio h5 {
+  font-size: 15px;
+  letter-spacing: 3px;
+}
+
+.we-are-vincent-grid-item-testimonials .testimonio p:nth-child(2) {
+  font-size: 15px;
+  color: rgb(18, 22, 24);
+  letter-spacing: 0px;
+}
+
 
 /*=======================================================================================================================================*/
 /*TABLET HORIZONTAL LG 1024px*/
@@ -546,8 +611,6 @@ ul div:hover {
     /* object-fit: cover !important; */
     height: 800px;
   }
-
-
 
   /*===========================================*/
   /*ICONOS YELLOW*/
@@ -610,6 +673,69 @@ ul div:hover {
 
   .hot-sales-grid-item .precio {
     font-size: 25px;
+  }
+
+  /*===========================================*/
+  /*WE ARE VINCENT*/
+  /*===========================================*/
+  .we-are-vincent {
+    height: 650px;
+  }
+
+  .we-are-vincent-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+  }
+
+  .we-are-vincent-grid-item-about h1 {
+    margin-bottom: 35px;
+    font-size: 40px;
+    letter-spacing: 8px;
+  }
+
+  .we-are-vincent-grid-item-about h6 {
+    word-wrap: break-word;
+    font-size: 16px;
+    letter-spacing: 3px;
+    line-height: 30px;
+  }
+
+  .we-are-vincent-grid-item-about p:nth-child(4) {
+    word-wrap: break-word;
+    font-size: 15px;
+    letter-spacing: 0px;
+    line-height: 27px;
+  }
+
+  .we-are-vincent-grid-item-about p:nth-child(5) {
+    word-wrap: break-word;
+    font-size: 15px;
+    letter-spacing: 0px;
+    line-height: 27px;
+  }
+
+  .we-are-vincent-grid-item-testimonials .testimonio img {
+    width: 45px;
+    border-radius: 50%;
+  }
+
+  .we-are-vincent-grid-item-testimonials .testimonio p:nth-child(1) {
+    font-size: 14px;
+    line-height: 28px;
+    text-align: justify;
+    text-justify: inter-word;
+  }
+
+  .we-are-vincent-grid-item-testimonials .testimonio h5 {
+    font-size: 15px;
+    letter-spacing: 3px;
+  }
+
+  .we-are-vincent-grid-item-testimonials .testimonio p:nth-child(2) {
+    font-size: 15px;
+    color: rgb(18, 22, 24);
+    letter-spacing: 0px;
   }
 
 }
@@ -764,6 +890,69 @@ ul div:hover {
 
   .hot-sales-grid-item .precio {
     font-size: 25px;
+  }
+
+  /*===========================================*/
+  /*WE ARE VINCENT*/
+  /*===========================================*/
+  .we-are-vincent {
+    height: 1000px;
+  }
+
+  .we-are-vincent-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    column-gap: 20px;
+  }
+
+  .we-are-vincent-grid-item-about h1 {
+    margin-bottom: 35px;
+    font-size: 40px;
+    letter-spacing: 8px;
+  }
+
+  .we-are-vincent-grid-item-about h6 {
+    word-wrap: break-word;
+    font-size: 16px;
+    letter-spacing: 3px;
+    line-height: 30px;
+  }
+
+  .we-are-vincent-grid-item-about p:nth-child(4) {
+    word-wrap: break-word;
+    font-size: 15px;
+    letter-spacing: 0px;
+    line-height: 27px;
+  }
+
+  .we-are-vincent-grid-item-about p:nth-child(5) {
+    word-wrap: break-word;
+    font-size: 15px;
+    letter-spacing: 0px;
+    line-height: 27px;
+  }
+
+  .we-are-vincent-grid-item-testimonials .testimonio img {
+    width: 45px;
+    border-radius: 50%;
+  }
+
+  .we-are-vincent-grid-item-testimonials .testimonio p:nth-child(1) {
+    font-size: 14px;
+    line-height: 28px;
+    text-align: justify;
+    text-justify: inter-word;
+  }
+
+  .we-are-vincent-grid-item-testimonials .testimonio h5 {
+    font-size: 15px;
+    letter-spacing: 3px;
+  }
+
+  .we-are-vincent-grid-item-testimonials .testimonio p:nth-child(2) {
+    font-size: 15px;
+    color: rgb(18, 22, 24);
+    letter-spacing: 0px;
   }
 }
 
@@ -930,6 +1119,69 @@ ul div:hover {
   .hot-sales-grid-item .precio {
     font-size: 25px;
   }
+
+  /*===========================================*/
+  /*WE ARE VINCENT*/
+  /*===========================================*/
+  .we-are-vincent {
+    height: 1100px;
+  }
+
+  .we-are-vincent-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    column-gap: 20px;
+  }
+
+  .we-are-vincent-grid-item-about h1 {
+    margin-bottom: 35px;
+    font-size: 40px;
+    letter-spacing: 8px;
+  }
+
+  .we-are-vincent-grid-item-about h6 {
+    word-wrap: break-word;
+    font-size: 16px;
+    letter-spacing: 3px;
+    line-height: 30px;
+  }
+
+  .we-are-vincent-grid-item-about p:nth-child(4) {
+    word-wrap: break-word;
+    font-size: 15px;
+    letter-spacing: 0px;
+    line-height: 27px;
+  }
+
+  .we-are-vincent-grid-item-about p:nth-child(5) {
+    word-wrap: break-word;
+    font-size: 15px;
+    letter-spacing: 0px;
+    line-height: 27px;
+  }
+
+  .we-are-vincent-grid-item-testimonials .testimonio img {
+    width: 45px;
+    border-radius: 50%;
+  }
+
+  .we-are-vincent-grid-item-testimonials .testimonio p:nth-child(1) {
+    font-size: 14px;
+    line-height: 28px;
+    text-align: justify;
+    text-justify: inter-word;
+  }
+
+  .we-are-vincent-grid-item-testimonials .testimonio h5 {
+    font-size: 15px;
+    letter-spacing: 3px;
+  }
+
+  .we-are-vincent-grid-item-testimonials .testimonio p:nth-child(2) {
+    font-size: 15px;
+    color: rgb(18, 22, 24);
+    letter-spacing: 0px;
+  }
 }
 
 /*=======================================================================================================================================*/
@@ -1095,6 +1347,69 @@ ul div:hover {
 
   .hot-sales-grid-item .precio {
     font-size: 25px;
+  }
+
+  /*===========================================*/
+  /*WE ARE VINCENT*/
+  /*===========================================*/
+  .we-are-vincent {
+    height: 1550px;
+  }
+
+  .we-are-vincent-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    column-gap: 20px;
+  }
+
+  .we-are-vincent-grid-item-about h1 {
+    margin-bottom: 35px;
+    font-size: 35px;
+    letter-spacing: 8px;
+  }
+
+  .we-are-vincent-grid-item-about h6 {
+    word-wrap: break-word;
+    font-size: 16px;
+    letter-spacing: 3px;
+    line-height: 30px;
+  }
+
+  .we-are-vincent-grid-item-about p:nth-child(4) {
+    word-wrap: break-word;
+    font-size: 15px;
+    letter-spacing: 0px;
+    line-height: 27px;
+  }
+
+  .we-are-vincent-grid-item-about p:nth-child(5) {
+    word-wrap: break-word;
+    font-size: 15px;
+    letter-spacing: 0px;
+    line-height: 27px;
+  }
+
+  .we-are-vincent-grid-item-testimonials .testimonio img {
+    width: 45px;
+    border-radius: 50%;
+  }
+
+  .we-are-vincent-grid-item-testimonials .testimonio p:nth-child(1) {
+    font-size: 14px;
+    line-height: 28px;
+    text-align: justify;
+    text-justify: inter-word;
+  }
+
+  .we-are-vincent-grid-item-testimonials .testimonio h5 {
+    font-size: 15px;
+    letter-spacing: 3px;
+  }
+
+  .we-are-vincent-grid-item-testimonials .testimonio p:nth-child(2) {
+    font-size: 15px;
+    color: rgb(18, 22, 24);
+    letter-spacing: 0px;
   }
 
 }
