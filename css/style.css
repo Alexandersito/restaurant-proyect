@@ -431,7 +431,7 @@ ul div:hover {
 .iconos-yellow {
   height: 450px;
   background-image: url(../img/back_2.png);
-  background-repeat: no-repeat;
+  background-repeat: repeat;
 }
 
 .iconos-yellow-grid {
@@ -553,6 +553,70 @@ ul div:hover {
   letter-spacing: 0px;
 }
 
+/*===========================================*/
+/*DISCOVER OUR MENU*/
+/*===========================================*/
+.discover-our-menu {
+  height: 1000px;
+  background-color: #121618;
+}
+
+.discover-our-menu h1 {
+  color: #DCE4E8;
+  font-size: 32px;
+  letter-spacing: 5px;
+}
+
+.discover-our-menu-list {
+  width: 650px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.discover-our-menu-list ul {
+  color: #DCE4E8;
+  font-size: 18px;
+  letter-spacing: 4px;
+}
+
+.discover-our-menu-list ul:hover {
+  color: #FFC84A;
+  cursor: pointer;
+}
+
+.discover-our-menu-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  row-gap: 25px;
+  column-gap: 25px;
+}
+
+.discover-our-menu-grid-item {
+  color: #DCE4E8;
+  text-align: center;
+}
+
+.discover-our-menu-grid-item img {
+  width: 190px;
+  transition: opacity 0.2s ease-in-out;
+  opacity: 1;
+}
+
+.discover-our-menu-grid-item h4 {
+  font-size: 18px;
+  letter-spacing: 4px;
+  margin: 20px 0px;
+}
+
+.discover-our-menu-grid-item p {
+  font-size: 14px;
+  line-height: 30px;
+  margin-bottom: 20px;
+}
+
+.discover-our-menu-grid-item h5 {
+  font-size: 24px;
+}
 
 /*=======================================================================================================================================*/
 /*TABLET HORIZONTAL LG 1024px*/
@@ -736,6 +800,69 @@ ul div:hover {
     font-size: 15px;
     color: rgb(18, 22, 24);
     letter-spacing: 0px;
+  }
+
+  /*===========================================*/
+  /*DISCOVER OUR MENU*/
+  /*===========================================*/
+  .discover-our-menu {
+    height: 900px;
+    background-color: #121618;
+  }
+
+  .discover-our-menu h1 {
+    color: #DCE4E8;
+    font-size: 32px;
+    letter-spacing: 5px;
+  }
+
+  .discover-our-menu-list {
+    width: 650px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .discover-our-menu-list ul {
+    color: #DCE4E8;
+    font-size: 18px;
+    letter-spacing: 4px;
+  }
+
+  .discover-our-menu-list ul:hover {
+    color: #FFC84A;
+    cursor: pointer;
+  }
+
+  .discover-our-menu-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    row-gap: 20px;
+    column-gap: 20px;
+  }
+
+  .discover-our-menu-grid-item {
+    color: #DCE4E8;
+    text-align: center;
+  }
+
+  .discover-our-menu-grid-item img {
+    width: 150px;
+  }
+
+  .discover-our-menu-grid-item h4 {
+    font-size: 18px;
+    letter-spacing: 4px;
+    margin: 20px 0px;
+  }
+
+  .discover-our-menu-grid-item p {
+    font-size: 14px;
+    line-height: 30px;
+    margin-bottom: 20px;
+  }
+
+  .discover-our-menu-grid-item h5 {
+    font-size: 24px;
   }
 
 }
@@ -953,6 +1080,69 @@ ul div:hover {
     font-size: 15px;
     color: rgb(18, 22, 24);
     letter-spacing: 0px;
+  }
+
+  /*===========================================*/
+  /*DISCOVER OUR MENU*/
+  /*===========================================*/
+  .discover-our-menu {
+    height: 1900px;
+    background-color: #121618;
+  }
+
+  .discover-our-menu h1 {
+    color: #DCE4E8;
+    font-size: 32px;
+    letter-spacing: 5px;
+  }
+
+  .discover-our-menu-list {
+    width: 650px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .discover-our-menu-list ul {
+    color: #DCE4E8;
+    font-size: 18px;
+    letter-spacing: 4px;
+  }
+
+  .discover-our-menu-list ul:hover {
+    color: #FFC84A;
+    cursor: pointer;
+  }
+
+  .discover-our-menu-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 25px;
+    column-gap: 15px;
+  }
+
+  .discover-our-menu-grid-item {
+    color: #DCE4E8;
+    text-align: center;
+  }
+
+  .discover-our-menu-grid-item img {
+    width: 220px;
+  }
+
+  .discover-our-menu-grid-item h4 {
+    font-size: 18px;
+    letter-spacing: 4px;
+    margin: 20px 0px;
+  }
+
+  .discover-our-menu-grid-item p {
+    font-size: 14px;
+    line-height: 30px;
+    margin-bottom: 20px;
+  }
+
+  .discover-our-menu-grid-item h5 {
+    font-size: 24px;
   }
 }
 
@@ -1182,6 +1372,80 @@ ul div:hover {
     color: rgb(18, 22, 24);
     letter-spacing: 0px;
   }
+
+  /*===========================================*/
+  /*DISCOVER OUR MENU*/
+  /*===========================================*/
+  .discover-our-menu {
+    height: 4050px;
+    background-color: #121618;
+  }
+
+  .discover-our-menu h1 {
+    color: #DCE4E8;
+    font-size: 32px;
+    letter-spacing: 5px;
+  }
+
+  .discover-our-menu-list {
+    text-align: center;
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .discover-our-menu-list>ul {
+    flex-basis: calc(33.33% - 10px);
+    margin-bottom: 10px;
+  }
+
+  .discover-our-menu-list>ul:nth-child(n+4) {
+    flex-basis: calc(33.33% - 10px);
+  }
+
+  .discover-our-menu-list ul {
+    color: #DCE4E8;
+    font-size: 18px;
+    letter-spacing: 4px;
+  }
+
+  .discover-our-menu-list ul:hover {
+    color: #FFC84A;
+    cursor: pointer;
+  }
+
+  .discover-our-menu-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 25px;
+    column-gap: 15px;
+  }
+
+  .discover-our-menu-grid-item {
+    color: #DCE4E8;
+    text-align: center;
+  }
+
+  .discover-our-menu-grid-item img {
+    width: 300px;
+  }
+
+  .discover-our-menu-grid-item h4 {
+    font-size: 18px;
+    letter-spacing: 4px;
+    margin: 20px 0px;
+  }
+
+  .discover-our-menu-grid-item p {
+    font-size: 14px;
+    line-height: 30px;
+    margin-bottom: 20px;
+  }
+
+  .discover-our-menu-grid-item h5 {
+    font-size: 24px;
+  }
 }
 
 /*=======================================================================================================================================*/
@@ -1410,6 +1674,76 @@ ul div:hover {
     font-size: 15px;
     color: rgb(18, 22, 24);
     letter-spacing: 0px;
+  }
+
+  /*===========================================*/
+  /*DISCOVER OUR MENU*/
+  /*===========================================*/
+  .discover-our-menu {
+    height: 3950px;
+    background-color: #121618;
+  }
+
+  .discover-our-menu h1 {
+    color: #DCE4E8;
+    font-size: 26px;
+    letter-spacing: 5px;
+  }
+
+  .discover-our-menu-list {
+    text-align: center;
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .discover-our-menu-list>ul {
+    flex-basis: calc(50% - 10px);
+    margin-bottom: 10px;
+  }
+
+  .discover-our-menu-list ul {
+    color: #DCE4E8;
+    font-size: 18px;
+    letter-spacing: 4px;
+  }
+
+  .discover-our-menu-list ul:hover {
+    color: #FFC84A;
+    cursor: pointer;
+  }
+
+  .discover-our-menu-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 30px;
+    column-gap: 0px;
+  }
+
+  .discover-our-menu-grid-item {
+    color: #DCE4E8;
+    text-align: center;
+  }
+
+  .discover-our-menu-grid-item img {
+    width: 250px;
+  }
+
+  .discover-our-menu-grid-item h4 {
+    font-size: 18px;
+    letter-spacing: 4px;
+    margin: 20px 0px;
+  }
+
+  .discover-our-menu-grid-item p {
+    font-size: 14px;
+    line-height: 30px;
+    margin-bottom: 20px;
+  }
+
+  .discover-our-menu-grid-item h5 {
+    font-size: 24px;
   }
 
 }
